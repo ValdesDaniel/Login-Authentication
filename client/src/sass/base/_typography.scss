@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+h1, h2, button, input, p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: clamp(1.2rem, 2vw, 1.7rem);
+    text-align: center;
+    color: #ffffff;
+}
+  
+
+.header-g__title {
+    font-size: clamp(1.9rem, 2vw, 3rem);
+    color: #ffffff;
+}
+
+.header-g__subtitle {
+    font-size: clamp(1.2rem, 2vw, 1.7rem);
+    color: #ffffff;
+}
+
+.header-g__btn {
+    font-size: clamp(1.125rem, 2vw, 1.5);
+    color: #ffffff;
+}
+
+.header-w__title {
+    font-size: clamp(1.9rem, 2vw, 3rem);
+    color: #000000;
+}
+
+.header-w__inputname, .header-w__inputemail, .header-w__inputpassword {
+    text-align: left;
+    color: #000000;
+}
+
+.accountpage_p {
+    font-size: clamp(1.2rem, 2vw, 1.7rem);
+    text-align: center;
+    color: #ffffff;
+}
